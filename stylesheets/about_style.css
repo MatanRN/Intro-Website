@@ -1,0 +1,33 @@
+#about_me{
+    margin: 0 auto;
+    padding: 1rem;
+    background: #fff;
+    box-shadow: rgba(0,0,0,0.56) 0px 22px 70px 4px;
+    border-radius: 8px;
+    max-width: 85%;
+    width: 85vw;
+}
+#surprise_button{
+    box-shadow: rgba(0,0,0,0.56) 0px 22px 70px 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: powderblue;
+    border-radius: 8px;
+    width: 10em;
+    height: 3em;
+    border-style: none;
+}
+.message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 1rem;
+    background: gold;
+    box-shadow: rgba(0,0,0,0.56) 0px 22px 70px 4px;
+    border-radius: 8px;
+    max-width: 20%;
+    width: 85vw;
+}
