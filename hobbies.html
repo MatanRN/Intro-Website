@@ -1,10 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <title>MatanRN</title>
+
+    <!-- FAVICONS -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/v3/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/v3/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/v3/favicon-16x16.png">
+    <link rel="manifest" href="/favicons/v3/site.webmanifest">
+    <!-- DESCRIPTION-->
+    <meta charset="UTF-8">
+    <meta name="description" content="SOME PLACEHOLDER DESCRIPTION">
+    <meta name="keywords" content="matan,rosenzweig,nachum,matan rosenzsweig nachum,martial arts,computer science">
+    <meta name="author" content="Matan Rosenzweig Nachum">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="all">
+
+    <link rel="stylesheet" type="text/css" href="../cv.css">
+    <link rel="stylesheet" type="text/css" href="../nav.css">
+    <link rel="stylesheet" type="text/css" href="../hobbies_style.css">
+
+    <!--Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cutive&family=Mulish:ital,wght@0,300;1,300&display=swap"
+          rel="stylesheet">
+
+    <!-- Use FontAwesome for (most) icons -->
+    <script src="https://kit.fontawesome.com/2a7f8c9d6d.js" defer crossorigin="anonymous"></script>
+
+    <script src="../no-transition-on-resize.js" defer></script>
 </head>
+
 <body>
-$END$
+
+<header>
+    <div class="logo">
+        <img id="me" loading=lazy alt="A photo of MatanRN" src="../images/matan_logo.webp">
+        <a href="#">Matan RN</a>
+    </div>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation bar">
+    <nav>
+        <ul>
+            <li><a href="./index.html" aria-label="home"><i class="fa-solid fa-house" aria-hidden="true"></i></a></li>
+            <li><a href="./education.html">Education</a></li>
+            <li><a href="./employment.html">Employment</a></li>
+            <li><a href="./hobbies.html">Hobbies</a></li>
+        </ul>
+    </nav>
+    <label for="nav-toggle" class="nav-toggle-label">
+      <span>
+        <i class="fa fa-bars fa-lg"></i>
+      </span>
+    </label>
+</header>
+
+<div id="page-wrap">
+
+    <div class="clear"></div>
+    <div class="clear"></div>
+
+    <div id="hobbies">
+        <h2 id="hobby_prefix">I'm a </h2>
+        <script src="../hobby_typewriter.js"></script>
+    </div>
+
+    <form class="form-container" method="post">
+        <div class="form-util">
+            <h2>What are your hobbies?</h2>
+            <button type="submit" aria-label="submit button">
+                <i class="fa-solid fa-check"></i>
+            </button>
+        </div>
+        <div class="form">
+            <div class="input-box">
+                <input type="text" required="required" alt="first name">
+                <span>First Name</span>
+            </div>
+            <div class="input-box">
+                <input type="text" required="required" alt="last name">
+                <span>Last Name</span>
+            </div>
+            <div class="input-box">
+                <input type="text" required="required" alt="hobbies">
+                <span>Hobbies</span>
+            </div>
+        </div>
+    </form>
+    <br>
+    <section class="container">
+        <div class="slider-wrapper">
+            <div class="slider">
+                <img id="slide-1" src="../images/pinkfloyd_dish.webp" draggable="false"
+                     alt="gourmet pink floyd styled dessert">
+                <img id="slide-2" src="../images/kayaks.webp" loading="lazy" draggable="false"
+                     alt="two men kayaking in the open sea">
+                <img id="slide-3" src="../images/pai_hands.webp" loading="lazy" draggable="false"
+                     alt="man with open arms, green mountains behind">
+                <img id="slide-4" src="../images/matan_climb.webp" loading="lazy" draggable="false"
+                     alt="man climbing in a climbing gym">
+                <img id="slide-5" src="../images/matan_travel.webp" loading="lazy" draggable="false"
+                     alt="man traveling in a forest, waterfall behind him">
+                <div class="slider-nav">
+                    <a href="#slide-1" aria-label="button to slide to first image"></a>
+                    <a href="#slide-2" aria-label="button to slide to second image"></a>
+                    <a href="#slide-3" aria-label="button to slide to third image"></a>
+                    <a href="#slide-4" aria-label="button to slide to fourth image"></a>
+                    <a href="#slide-5" aria-label="button to slide to fifth image"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer>
+
+    <a href="https://www.linkedin.com/in/matan-rosenzweig-nachum-375340231/" target="_blank" rel="noopener"
+       aria-label="linkedin">
+        <i class="fa-brands fa-linkedin fa-2x"></i>
+    </a>
+
+    <a href="mailto:matanchuk.rn@gmail.com" aria-label="email">
+        <i class="fa-regular fa-envelope fa-2x" aria-hidden="true"></i>
+    </a>
+</footer>
+
 </body>
 </html>
