@@ -1,10 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <title>MatanRN</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/v3/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/v3/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/v3/favicon-16x16.png">
+    <link rel="manifest" href="/favicons/v3/site.webmanifest">
+
+    <meta charset="UTF-8">
+    <meta name="description" content="SOME PLACEHOLDER DESCRIPTION">
+    <meta name="keywords" content="matan,rosenzweig,nachum,matan rosenzsweig nachum,martial arts,computer science">
+    <meta name="author" content="Matan Rosenzweig Nachum">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="all">
+
+    <!--CSS Links-->
+    <link rel="stylesheet" type="text/css" href="stylesheets/cv.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/nav.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/edu_emp_style.css">
+
+
+    <!-- Use FontAwesome for (most) icons -->
+    <script src="https://kit.fontawesome.com/2a7f8c9d6d.js" defer crossorigin="anonymous"></script>
+
+    <!--Scripts-->
+    <script src="logic.js" defer></script>
+    <script src="no-transition-on-resize.js" defer></script>
 </head>
+
 <body>
-$END$
+<header>
+    <div class="logo">
+        <img id="me" loading=lazy alt="A photo of MatanRN" src="../images/matan_logo.webp">
+        <a href="#">Matan RN</a>
+    </div>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation bar">
+    <nav>
+        <ul>
+            <li><a href="./index.html" aria-label="home"><i class="fa-solid fa-house" aria-hidden="true"></i></a></li>
+            <li><a href="./education.html">Education</a></li>
+            <li><a href="./employment.html">Employment</a></li>
+            <li><a href="./hobbies.html">Hobbies</a></li>
+        </ul>
+    </nav>
+    <label for="nav-toggle" class="nav-toggle-label">
+      <span>
+        <i class="fa fa-bars fa-lg"></i>
+      </span>
+    </label>
+</header>
+
+<div id="page-wrap">
+
+    <div class="clear"></div>
+    <div class="clear"></div>
+
+
+    <div class="clear"></div>
+
+    <h2 id="employment"> Employment</h2>
+    <div id="oncloud_emp">
+        <h3> OnCloud</h3>
+        <h4>Cloud Security Engineer, 2022-2023</h4>
+        <ul class="job_desc">
+            <li>Worked with companies of all sizes, from startups to international publicly traded companies.</li>
+            <li>Project management and leadership.</li>
+            <li>Continuous learning in a field that changes on a daily basis.</li>
+            <li>Achieved goals while working with multiple clients simultaneously.</li>
+        </ul>
+    </div>
+    <br>
+
+    <div id="military_emp" >
+        <h3> Military Service</h3>
+        <h4> Commander, 2019-2021</h4>
+        <ul class="job_desc">
+            <li>Responsibility for human lives.</li>
+            <li>Swift adaptation to situations.</li>
+            <li>Management, mentoring and supervision of personnel.</li>
+            <li>Presentation skills.</li>
+        </ul>
+    </div>
+</div>
+
+<footer>
+
+    <a href="https://www.linkedin.com/in/matan-rosenzweig-nachum-375340231/" target="_blank" rel="noopener"
+       aria-label="linkedin">
+        <i class="fa-brands fa-linkedin fa-2x"></i>
+    </a>
+
+    <a href="mailto:matanchuk.rn@gmail.com" aria-label="email">
+        <i class="fa-regular fa-envelope fa-2x" aria-hidden="true"></i>
+    </a>
+</footer>
+
 </body>
 </html>
