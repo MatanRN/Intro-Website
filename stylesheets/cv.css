@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    /* scroll-padding-top: max(3.5rem, 6vh); */
+    scroll-padding-top: 7em;
+}
+
+/* offset scroll target to compensate for the page header */
+:target:before {
+    content: "";
+    display: block;
+}
+
+body {
+    font: clamp(12px, 1vmax, 16px) Verdana, sans-serif;
+    line-height: 1.7;
+    background: lightskyblue;
+    letter-spacing: 0.03em;
+}
+
+
+.clear {
+    clear: both;
+    height: clamp(2em, 5vmax, 3em);
+}
+
+#page-wrap {
+    max-width: 1100px;
+    margin: 0px auto;
+    padding: 1em;
+}
+
+
+h2 {
+    font-weight: bold;
+    font-size: 1.3em;
+    padding-bottom: 0.7em;
+}
+
+/* footer with social icons */
+footer {
+    background-color: #eaeaea;
+    text-align: center;
+    width: 100%;
+}
+
+footer i {
+    margin: 20px 5px;
+    transform: scale(1.0);
+    transition-duration: 0.2s;
+}
+
+footer i:hover {
+    margin: 20px 5px;
+    transform: scale(1.2);
+    transition-duration: 0.2s;
+}
+
+footer a {
+    color: #757575;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+footer a:hover {
+    color: #757575;
+    border-bottom: none;
+}
+
+/* Set different hover colors per icon */
+footer i[class*="fa-linkedin"]:hover {
+    color: #0a66c2;
+}
+
+footer i[class*="fa-envelope"]:hover {
+    color: black;
+}

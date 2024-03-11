@@ -2,20 +2,6 @@
 <html lang="en">
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-54246025-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-
-        gtag('js', new Date());
-
-        gtag('config', 'UA-54246025-1');
-    </script>
-
     <title>MatanRN</title>
 
     <!-- Favicon -->
@@ -25,38 +11,38 @@
     <link rel="manifest" href="/favicons/v3/site.webmanifest">
 
     <meta charset="UTF-8">
-    <meta name="description" content="SOME PLACEHOLDER DESCRIPTION">
+    <meta name="description" content="My personal website">
     <meta name="keywords" content="matan,rosenzweig,nachum,matan rosenzsweig nachum,martial arts,computer science">
     <meta name="author" content="Matan Rosenzweig Nachum">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="all">
 
     <!--CSS Links-->
-    <link rel="stylesheet" type="text/css" href="stylesheets/cv.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/nav.css">
-    <link rel="stylesheet" type="text/css" href="./stylesheets/about_style.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/cv.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/nav.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/about_style.css">
 
     <!-- Use FontAwesome for (most) icons -->
     <script src="https://kit.fontawesome.com/2a7f8c9d6d.js" defer crossorigin="anonymous"></script>
 
     <!--Scripts-->
-    <script src="logic.js" defer></script>
-    <script src="no-transition-on-resize.js" defer></script>
+    <script src="../scripts/hobby_typewriter.js" defer></script>
 </head>
 
 <body>
 <header>
+
     <div class="logo">
-        <img id="me" loading=lazy alt="A photo of MatanRN" src="../images/matan_logo.webp">
+        <img id="me" loading=lazy alt="A photo of MatanRN" src="../images/matan_logo.webp" srcset="/images/logo_der/matan_logo-100_x_100.webp 100w, /images/logo_der/matan_logo-200_x_200.webp 200w, /images/logo_der/matan_logo-300_x_300.webp 300w, /images/logo_der/matan_logo-400_x_400.webp 400w" sizes="100px">
         <a href="#">Matan RN</a>
     </div>
     <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation bar">
     <nav>
         <ul>
             <li><a href="./index.html" aria-label="home"><i class="fa-solid fa-house" aria-hidden="true"></i></a></li>
-            <li><a href="./education.html" >Education</a></li>
-            <li><a href="./employment.html">Employment</a></li>
-            <li><a href="./hobbies.html">Hobbies</a></li>
+            <li><a href="education.html" >Education</a></li>
+            <li><a href="employment.html">Employment</a></li>
+            <li><a href="hobbies.html">Hobbies</a></li>
         </ul>
     </nav>
     <label for="nav-toggle" class="nav-toggle-label">

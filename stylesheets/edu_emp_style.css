@@ -1,0 +1,15 @@
+#edu_institute, #oncloud_emp,#military_emp{
+    padding: 1rem;
+    background: #fff;
+    box-shadow: rgba(0,0,0,0.56) 0px 22px 70px 4px;
+    border-radius: 8px;
+    max-width: 100%;
+    width: 85vw;
+}
+.edu_desc{
+    list-style: none;
+}
+
+.job_desc{
+    padding-left: 2%;
+}
